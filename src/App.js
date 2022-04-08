@@ -1,27 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import { Row, Col, Navbar } from 'reactstrap';
+import Home from './HomeAllCompotent/Home';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h3>Nithesh Kumar 24</h3>
-        <h3>Date : 08/04/2022</h3>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Row>
+        <Home/>
+      </Row>
     </div>
-  );
+  )
 }
 
 export default App;

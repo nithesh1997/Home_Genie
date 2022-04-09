@@ -2,6 +2,23 @@
     background-color : #00000000;
     height: 60px;
 }
-p{
-    color : white;
+.homeNavText{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.homeNavDropdown{
+    display: flex;
+    justify-content: end;
+}
+.homeCategoriesMainSele{
+    display: flex;
+    justify-content: center;
+}
+.homeCategoriesImageCon{
+    background-color: #dee4e9;
+    position: relative;
+    top: -5rem;
+    padding: 1%;
+    border-radius: 10px;
 }
